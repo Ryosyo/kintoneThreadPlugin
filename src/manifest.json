@@ -1,0 +1,56 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "kintoneすれっどプラグイン(β)",
+        "en": "kintone thread plugin",
+        "zh": "kintone thread plugin"
+    },
+    "description": {
+        "ja": "kintoneアプリ上で掲示板のスレッド的なものを利用するプラグインです。",
+        "en": " ",
+        "zh": " "
+    },
+    "icon": "icon.png",
+    "homepage_url": {
+        "ja": "https://www.google.co.jp/",
+        "en": "https://www.google.co.jp/",
+        "zh": "https://www.google.co.jp/"
+    },
+    "desktop": {
+        "js": [
+            "https://js.kintone.com/jquery/2.1.4/jquery.min.js",
+            "https://js.kintone.com/momentjs/2.10.6/moment.min.js",
+            "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.2.8/js/fileinput.min.js",
+            "https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.5.4/ckeditor.js",
+            "https://js.cybozu.com/spinjs/2.3.2/spin.min.js",
+            "js/file.js",
+            "js/view.js",
+            "js/app.js"
+        ],
+        "css": [
+            "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css",
+            "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.2.8/css/fileinput.min.css",
+            "css/kthread-view.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+        ],
+        "css": [
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "https://js.cybozu.com/jsrender/1.0.0-beta/jsrender.min.js",
+            "js/config.js"
+        ],
+        "css": "css/51-us-default.css",
+        "required_params": ["ApiToken", "Table", "Space", "Title","Id","Datetime",
+                            "Name", "User", "UserId", "Message", "File", "LoadTime"]
+    }
+}

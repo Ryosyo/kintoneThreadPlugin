@@ -1,0 +1,78 @@
+.thread-view, .thread-form{
+     margin: 0px 0px 30px 0px;
+     padding: 15px;
+}
+.thread-comment {
+     padding-bottom: 10px;
+}
+
+.thread-comment:nth-child(odd){
+     border-top: 1px;
+     background-color: #f0f2f3;
+}
+
+.thread-comment hr {
+     margin-top: 0px;
+}
+
+.thread-comment div {
+     margin-top: 10px;
+}
+
+.thread-comment .thread-comment-title {
+    padding: 5px;
+}
+
+.thread-comment .thread-comment-body {
+    padding: 10px;
+}
+
+.thread-comment img {
+     max-width: 400px;
+     max-height: 400px;
+     margin: 10px;
+     border: 0px;
+}
+
+#kthread_form {
+     width: 100%;
+}
+
+.thread-form .form-input {
+     margin-bottom: 10px;
+}
+
+.thread-form .file-input {
+     width: 80%;
+}
+
+#cke_kthread_message {
+     margin-top: 10px;
+}
+
+.thread-form input[type="button"] {
+    background-color: #337ab7;
+    border: 1px solid #2e6da4;
+    color:#FFF;
+    width: 100px;
+    padding: 10px 0;
+}
+
+.thread-form input[type="text"] {
+    border:1px solid #DCDCDC;
+    border-radius:5px;
+    padding:7px;
+}
+
+.thread-form input[type="text"][disabled] {
+    background:#DCDCDC;
+    cursor:not-allowed;
+}
+
+.thread-form input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.subtable-gaia, .recordlist-edit-gaia, .gaia-argoui-app-menu-edit, .gaia-argoui-app-menu-copy{
+    display: none;
+}

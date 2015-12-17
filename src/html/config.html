@@ -1,0 +1,136 @@
+<div id="kthread_plugin">
+	<!-- view space -->
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.apitoken}}<span class="kintoneplugin-require">*</span></div>
+            <input class="kintoneplugin-input-text" type="text" id="kthread_apitoken" style="width:400px;"/>
+        <div>{{html:terms.apitoken_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.title}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_title">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.title_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.space}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_space">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.space_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.table}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_table">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.table_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.id}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_id">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.id_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.datetime}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_datetime">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.datetime_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.name}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_name">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.name_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.user}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_user">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.user_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.userid}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_userid">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.userid_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.message}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_message">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.message_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.file}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_file">
+                    <option value="">--</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.file_description}}</div>
+    </div>
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{html:terms.loadtime}}<span class="kintoneplugin-require">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="kthread_loadtime">
+                    <option value="0">{{html:terms.loadtime_default}}</option>
+                    <option value="15000">15</option>
+                    <option value="30000">30</option>
+                    <option value="60000" selected>60</option>
+                </select>
+            </div>
+        </div>
+        <div>{{html:terms.loadtime_description}}</div>
+    </div>
+    <div class="form-submit">
+        <button class="kintoneplugin-button-dialog-ok" id="kthread_plugin_submit" type="button">{{html:terms.plugin_submit}}</button>
+        <button class="kintoneplugin-button-dialog-cancel" id="kthread_plugin_cancel" type="button">{{html:terms.plugin_cancel}}</button>
+    </div>
+</div>
