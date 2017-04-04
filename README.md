@@ -1,7 +1,7 @@
 
-#kintone Thread Plugin
+# kintone Thread Plugin
 
-##アプリのフォーム設定
+## アプリのフォーム設定
 |項目名|フィールド型|説明|
 |:--|:--|:--|
 |タイトル|文字列（1行）|スレッドのタイトル|
@@ -15,7 +15,7 @@
 |コメント本文|文字列（複数行）|コメント |
 |コメントの添付ファイル|添付ファイル|添付ファイル|
 
-##プラグインの設定
+## プラグインの設定
 1. [プラグインインストール方法](https://help.cybozu.com/ja/k/admin/plugin.html)
 2. [アプリにプラグインを適用する方法](https://help.cybozu.com/ja/k/user/plugin.html)
 3. プラグインの設定項目について
@@ -37,7 +37,7 @@
 
 
 
-##LICENSE
+## LICENSE
 This software is released Dual licensed under the MIT or GPL Version 3 licenses.
 
 
